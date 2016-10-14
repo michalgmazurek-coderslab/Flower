@@ -1,0 +1,98 @@
+.flower {
+  
+  width: 400px;
+  height: 400px;
+  position: relative;
+  transition: transform 16s linear 0s;
+  
+}
+.flower:hover {
+  
+  transform: rotate(1800deg);
+  
+}  
+.flower:hover .platki {
+  
+  background-color: aquamarine;
+  
+}
+.flower:active .platki {
+  
+  box-shadow: 0 0 15px 5px pink;
+  
+}
+.centre {
+  
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+  background-color: yellow;
+  
+}
+.platki {
+  
+  transition: background 16s linear 0s;
+  width: 100px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: pink;
+  position: absolute;
+  
+}
+.top {
+  
+  transform: rotate(90deg);
+  margin-top: -75px;
+  margin-left: -25px;
+  
+}
+.bottom {
+  
+  transform: rotate(90deg);
+  margin-top: 75px;
+  margin-left: -25px;
+  
+}
+.left {
+  
+  margin-left: 50px;
+    
+}
+.right {
+  
+  margin-left: -100px;
+  
+}
+.topLeft {
+  
+  transform: rotate(45deg);
+  margin-left: -78px;
+  margin-top: -53px;
+  
+}
+.topRight {
+  
+  transform: rotate(135deg);
+  margin-left: 28px;
+  margin-top: -53px;
+  
+}
+.bottomRight {
+  
+  transform: rotate(45deg);
+  margin-left: 28px;
+  margin-top: 53px;
+  
+}
+.bottomLeft {
+  
+  transform: rotate(135deg);
+  margin-left: -78px;
+  margin-top: 53px;
+  
+}
